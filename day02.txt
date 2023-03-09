@@ -52,6 +52,9 @@ git의 작동원리
         이때stage에 올라가있는 파일을 수정(추가,삭제)했다면 add를 실행했을 당시와
         다른 상태가 된다.이를 인지하고 modified 상태가 되었다고 판단하며
         modified 된 상태는 tracked 상태지만 unstage 상태.
+
+    stage에 올라와있는 상황을 영구적으로 저장 : commit
+        커밋을 하게 되면 "stage에 올라와있는 상태" 그대로 영구 저장된다. 
     
     git status
         git 저장소의 상태를 확인하라.
