@@ -22,4 +22,19 @@ git의 저장소 설정하기
 cmd terminal 명령어
     cd 폴더이름
     
-    
+git과 github 연결하기
+    1.github에서 내 로컬저장소와 연결할 원격저장소(repository) 만들기
+        우측 상단 프로필 클릭 > your repositories < New 버튼 클릭 > 레포지토리이름 설정 > Create repository 버튼클릭
+    2.로컬 저장소와 원격저장소 연결
+        terminal 에서 git remote add 원격저장소 별칭 원격저장소주소
+
+    연결완료(최초 한번만)
+
+평소에 git hub 업로드 하는 과정
+    수정(unstage, tracked), 새롭게만든파일(unstage, untracked)
+
+    add 하여 모든 수정사항 stage로 만들기
+
+    commit 하여 stage에 올라간 상태를 영구저장
+
+    push 하여 commit된 상태를 github에 업로드하기
